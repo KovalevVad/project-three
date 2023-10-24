@@ -25,26 +25,27 @@
   list-style-type: none;
 }
 
+.head__account {
+  display: flex;
+  gap: 8px;
+}
+
+.head__account > p,
+.main__social > p,
 li > a {
   color: #FFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+li > a {
   text-decoration: none;
 }
 
-.head__account {
-  display: flex;
-  gap: 8px;
-}
-
-.head__account > p {
-  color: #FFF;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.main__social > p {
+  writing-mode: vertical-lr;
 }
 
 .main {
@@ -62,15 +63,6 @@ li > a {
   flex-direction: column;
   width: 24px;
   gap: 24px;
-}
-
-.main__social > p {
-  color: #FFF;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  writing-mode: vertical-lr;
 }
 
 .main__center {
@@ -102,7 +94,7 @@ li > a {
 
 .logoName {
   color: white;
-  font-family: Chronicle Display;
+ font-family: 'Chronicle Display', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -242,7 +234,8 @@ h2 {
   height: auto;
 }
 
-.number-one {
+.number-one,
+.number-two {
   position: absolute;
   color: #FFF;
   font-size: 240px;
@@ -258,16 +251,6 @@ h2 {
 }
 
 .number-two {
-  position: absolute;
-  color: #FFF;
-  font-size: 240px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 240px;
-  opacity: 0.1;
-  align-self: flex-start;
-  justify-self: flex-start;
-
   margin-top: 30px;
   margin-right: 400px;
 }
