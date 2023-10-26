@@ -2,6 +2,12 @@
   font-family: 'Gilroy-Bold', sans-serif;
 }
 
+:root {
+  --Wei: #FFF;
+  --Accent: #FBD784;
+  --BG: #0B1D26;
+}
+
 .section-one {
   width: 100%;
   height: 2100px;
@@ -92,7 +98,7 @@ li > a {
   margin-top: 1172px;
 }
 
-.logoName {
+.logo-name {
   color: white;
  font-family: 'Chronicle Display', sans-serif;
   font-size: 32px;
