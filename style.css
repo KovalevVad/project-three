@@ -111,7 +111,7 @@ li > a {
 
 h1 {
   width: 950px;
-  color: var(--Wei, #FFF);
+  color: var(--Wei);
   font-family: 'Chronicle Display', sans-serif;
   font-size: 88px;
   font-style: normal;
@@ -127,13 +127,13 @@ h1 {
 }
 
 .line_text > div {
-  background-color: var(--Accent, #FBD784);
+  background-color: var(--Accent);
   width: 72px;
   height: 2px;
 }
 
 .line_text > p {
-  color: var(--Accent, #FBD784);
+  color: var(--Accent);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -177,7 +177,7 @@ h1 {
   justify-content: center;
   width: 100%;
   height: auto;
-  background: var(--BG, #0B1D26);
+  background: var(--BG);
   margin-top: 0px;
 }
 
@@ -228,7 +228,7 @@ h2 {
 }
 
 .read-more > p {
-  color: var(--Accent, #FBD784);
+  color: var(--Accent);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -262,7 +262,7 @@ h2 {
 }
 
 h3 {
-  color: var(--Wei, #FFF);
+  color: var(--Wei);
   font-family: Chronicle Display;
   font-size: 32px;
   font-style: normal;
@@ -308,7 +308,7 @@ ul {
 }
 
 h4 {
-  color: var(--Accent, #FBD784);
+  color: var(--Accent);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
